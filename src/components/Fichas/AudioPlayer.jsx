@@ -7,7 +7,7 @@ export default function AudioPlayer({ src, auto = true }) {
 
   useEffect(() => {
     if (!auto) return;
-    // Habilita reproducción al primer click/touch (como haces en ovinos/lecheras)
+    
     const onFirstInteract = () => {
       setReady(true);
       setTimeout(() => ref.current?.play?.(), 0);
@@ -20,12 +20,14 @@ export default function AudioPlayer({ src, auto = true }) {
       window.removeEventListener("click", onFirstInteract);
       window.removeEventListener("touchstart", onFirstInteract);
     };
-  }, [auto]);
+  }, [auto, src]); // reinicia si cambia src
 
   if (!src) return null;
+
   return (
     <div className="audio-player-container">
       <audio
+        key={src}              
         ref={ref}
         controls
         className="audio-player"
