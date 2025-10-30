@@ -51,7 +51,7 @@ export default function Curtain({ open, onClose, activeTab, onChangeTab }) {
             <h3>Ganado lechero</h3>
             <div className="products-list">
               <ul>
-                <a href="/fichas/lecheras"><li><i className="fa-solid fa-drumstick-bite"></i> PX Lechero</li></a>
+                <a href="#/fichas/lecheras"><li><i className="fa-solid fa-drumstick-bite"></i> PX Lechero</li></a>
               </ul>
             </div>
           </div>
@@ -62,7 +62,7 @@ export default function Curtain({ open, onClose, activeTab, onChangeTab }) {
             <h3>Ganado para carne</h3>
             <div className="products-list">
               <ul>
-                <a href="/fichas/pxcarne"><li><i className="fa-solid fa-drumstick-bite"></i> PX Carne C15</li></a>
+                <a href="#/fichas/pxcarne"><li><i className="fa-solid fa-drumstick-bite"></i> PX Carne C15</li></a>
               </ul>
             </div>
           </div>
@@ -73,7 +73,7 @@ export default function Curtain({ open, onClose, activeTab, onChangeTab }) {
             <h3>Ovinos</h3>
             <div className="products-list">
               <ul>
-                <a href="/fichas/ovinos"><li><i className="fa-solid fa-seedling"></i> Núcleo mineral para ovinos</li></a>
+                <a href="#/fichas/ovinos"><li><i className="fa-solid fa-seedling"></i> Núcleo mineral para ovinos</li></a>
               </ul>
             </div>
           </div>
@@ -84,7 +84,7 @@ export default function Curtain({ open, onClose, activeTab, onChangeTab }) {
             <h3>Equinos</h3>
             <div className="products-list">
               <ul>
-                <a href="/fichas/equinos"><li><i className="fa-solid fa-horse"></i> Premix Equinos</li></a>
+                <a href="#/fichas/equinos"><li><i className="fa-solid fa-horse"></i> Premix Equinos</li></a>
               </ul>
             </div>
           </div>
@@ -95,7 +95,7 @@ export default function Curtain({ open, onClose, activeTab, onChangeTab }) {
             <h3>Levaduras</h3>
             <div className="products-list">
               <ul>
-                <a href="/fichas/byways"><li><i className="fa-solid fa-fish"></i> BYWAYS</li></a>
+                <a href="#/fichas/byways"><li><i className="fa-solid fa-fish"></i> BYWAYS</li></a>
               </ul>
             </div>
           </div>
